@@ -42,22 +42,29 @@ Tablet: 768px até 992px
     }
     section#login > div#imagem{
         float: right; /* lado direito*/
-        width: 50%;
+        width: 30%;
         height: 100%;
         box-shadow: 0px 0px 5px black;
     }
     section#login > div div#form{
         float: left; /* lado esquerdo*/
-        width: 50%;
+        width: 70%;
     }
     div#form > h1{
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         font-size: 2em;
     }
     div#form > p{
         font-size: 1em;
        
-        padding-top: 20px;
+        padding-top: 5px;
+    }
+    form > input[type=submit]{
+      width: 70%;
+        
+    }
+    form > a.botao{
+        width: 70%;
     }
 }
