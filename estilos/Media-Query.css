@@ -19,13 +19,14 @@ Tablet: 768px até 992px
     }
     section#login > div#imagem{
         float: left;  /*colocar div imagem no lado esquerdo*/
-        width: 30%;
+        width: 40%;
         height: 100%;
+        box-shadow: 0px 0px 5px black;
 
     }
     section#login > div#form{
         float: right; /*coloca div forma no lado direito*/
-        width: 70%;
+        width: 60%;
 
     }
 }
@@ -40,13 +41,23 @@ Tablet: 768px até 992px
         width: 950px;
     }
     section#login > div#imagem{
-        float: left; /* lado esquerdo*/
-        width: 50%;
-        height: 100%;
-    }
-    section#login > div div#form{
         float: right; /* lado direito*/
         width: 50%;
+        height: 100%;
+        box-shadow: 0px 0px 5px black;
     }
-    
+    section#login > div div#form{
+        float: left; /* lado esquerdo*/
+        width: 50%;
+    }
+    div#form > h1{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    div#form > p{
+        font-size: 1em;
+       
+        padding-top: 20px;
+    }
 }
