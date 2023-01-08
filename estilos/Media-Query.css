@@ -7,7 +7,7 @@ Tablet: 768px até 992px
 
 
 */
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 992px){/* configuração para tablet*/
     
     body{
         background-image: linear-gradient(to top, #0fc4beb2, #7d42a5bd);
@@ -15,13 +15,14 @@ Tablet: 768px até 992px
 
     section#login{
         width: 80vw;/*largura de tela*/
+        height: 300px;
 
     }
     section#login > div#imagem{
         float: left;  /*colocar div imagem no lado esquerdo*/
         width: 40%;
         height: 100%;
-        box-shadow: 0px 0px 5px black;
+        box-shadow: 0px 0px 1px black;
 
     }
     section#login > div#form{
@@ -33,22 +34,23 @@ Tablet: 768px até 992px
 
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {/*configurações para desktop*/
     body{
         background-image: linear-gradient(to top, #18e4ddb0, #602c82ad);
     }
     section#login{
         width: 950px;
+        right: 350px;
     }
     section#login > div#imagem{
         float: right; /* lado direito*/
-        width: 30%;
+        width: 50%;
         height: 100%;
-        box-shadow: 0px 0px 5px black;
+        box-shadow: 0px 0px 1px black;
     }
     section#login > div div#form{
         float: left; /* lado esquerdo*/
-        width: 70%;
+        width: 50%;
     }
     div#form > h1{
         text-align: center;
@@ -57,22 +59,23 @@ Tablet: 768px até 992px
     }
     div#form > p{
         font-size: 1em;
-       
+        margin: 20px 0px;
         padding-top: 5px;
     }
     form > input[type=submit]{
-      width: 70%;
+      width: 50%;
         
     }
     form > a.botao{
-        width: 70%;
+        width: 50%;
     }
     form > div.campo{
-        background-color: rgb(129, 122, 136);
-        width: 70%;
+        background-color: rgba(65, 9, 122, 0.788);
+        width: 50%;
         display: block;
         height: 40px;
         border-radius: 5px;
         margin: 5px 0px;
+    }
    
 }
