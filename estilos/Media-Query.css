@@ -67,4 +67,12 @@ Tablet: 768px até 992px
     form > a.botao{
         width: 70%;
     }
+    form > div.campo{
+        background-color: rgb(129, 122, 136);
+        width: 70%;
+        display: block;
+        height: 40px;
+        border-radius: 5px;
+        margin: 5px 0px;
+   
 }
